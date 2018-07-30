@@ -1,0 +1,12 @@
+name: Media Field Formatter Example
+description: 'I''d write a field formatter for that.'
+package: Development
+
+type: module
+core: 8.x
+
+dependencies:
+- drupal:media
+
+tags:
+ - developer
