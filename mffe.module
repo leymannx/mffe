@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function mffe_theme($existing, $type, $theme, $path) {
+
+  return [
+    'mffe_download_slides' => [
+      'variables' => ['url' => NULL],
+    ],
+  ];
+}
